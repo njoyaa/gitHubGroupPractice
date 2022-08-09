@@ -8,4 +8,5 @@ public class TestRunner {
 		// tag is to specify with tag to execute with this runner
 		return Karate.run("classpath:features").tags("Regression");
 	}
+	
 }
